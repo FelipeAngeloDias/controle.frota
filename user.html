@@ -14,22 +14,27 @@
         <h1>Cadastrar Usuário</h1>        
     </header>
 
-    <main class="lanc">
-        <label>Nome:<input type="text" name="funcnome" id=""></label> 
-        <label>Função:<input type="text" name="tipocnh" id=""></label>
-        <label>Usuario:<input type="text" name="funcao" id=""></label>
-        <label>Senha:<input type="text" name="funcao" id=""></label>
-        <label>Ativo:<input type="checkbox" name="ativo" id=""></label>
+    <main class="lanc-user">
+        <form class="registeruser" action="">
+            <label>Nome:<input type="text" name="funcnome" id=""></label> 
+            <label>Função:<input type="text" name="tipocnh" id=""></label>
+            <label>Usuario:<input type="text" name="funcao" id=""></label>
+            <label>Senha:<input type="text" name="funcao" id=""></label>
+            <label>Ativo:<input type="checkbox" name="ativo" id=""></label>
+            <div class="enviarbotao">
+            <button id="btn-user">Enviar</button>
+            </div>
+        </form>
+        
         
        
     </main>
-    <div class="enviarbotao">
-        <button>Enviar</button>
-    </div>
+   
     
     <footer>
 
     </footer>
-
+<script src="js/controllers/UserController.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

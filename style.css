@@ -114,6 +114,29 @@ body{
     align-items: center;
     margin-top: 15px;
 }
+.lanc-user{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.lanc-user label{
+    font-family: 'Tahoma',sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.lanc-user input{
+    border: 1px solid black;
+    width: 215px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: 15px;
+}
 .enviarbotao{
     text-align: center;
 }
