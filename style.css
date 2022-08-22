@@ -1,0 +1,133 @@
+@keyframes colors{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(45deg, #1D5C63,#417D7A,#EDE6DB);
+    background-size: 500% 500%;
+    animation: colors  15s ease infinite;
+}
+.princ img{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+.princ h1{
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.princ p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.princindex button{
+    border-radius: 35px;
+    border: 4em;
+    width: 263px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: hsl(145, 24%, 35%);
+}
+.princindex a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;  
+}
+.princfim p{
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    color: #EDE6DB;
+    margin-top: 75px;
+}
+.lanc_cabecalho{
+    display: flex;    
+
+}
+.lanc_cabecalho h1{
+    text-align: center;
+    font-family: 'roboto',sans-serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: white;
+}
+.lanc_cabecalho img{
+    width: 50px;     
+}
+.lanc{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.lanc input{
+    border: 1px solid black;
+    width: 215px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; 
+    margin-right: 15px;
+     
+}
+.lanc label{
+    font-family: 'Tahoma',sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.enviarbotao{
+    text-align: center;
+}
+.enviarbotao button{
+    border: none;
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enviarbotao button:hover{
+    background-color: hsl(0, 0%, 0%, 0.850);
+    cursor: pointer;
+}
