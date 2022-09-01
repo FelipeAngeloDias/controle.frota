@@ -1,0 +1,24 @@
+{
+  "name": "controle-de-frota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeAngeloDias/controle.frota.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeAngeloDias/controle.frota/issues"
+  },
+  "homepage": "https://github.com/FelipeAngeloDias/controle.frota#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4"
+  }
+}

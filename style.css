@@ -90,11 +90,15 @@ body{
 .lanc_cabecalho img{
     width: 50px;     
 }
-.lanc{
+.lanc, 
+.lancCar,
+.lanc-user{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.lanc input{
+.lanc input,
+.lancCar input,
+.lanc-user input{
     border: 1px solid black;
     width: 215px;
     height: 35px;
@@ -105,19 +109,8 @@ body{
     margin-right: 15px;
      
 }
-.lanc label{
-    font-family: 'Tahoma',sans-serif;
-    font-size: 13px;
-    color: white;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-top: 15px;
-}
-.lanc-user{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
+.lanc label,
+.lancCar label,
 .lanc-user label{
     font-family: 'Tahoma',sans-serif;
     font-size: 13px;
@@ -127,20 +120,12 @@ body{
     align-items: center;
     margin-top: 15px;
 }
-.lanc-user input{
-    border: 1px solid black;
-    width: 215px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto; 
-    margin-right: 15px;
-}
-.enviarbotao{
+.enviarbotao,
+.lanc-user{
     text-align: center;
 }
-.enviarbotao button{
+.enviarbotao button,
+.lanc-user btn-user{
     border: none;
     width: 150px;
     height: 35px;
@@ -149,8 +134,10 @@ body{
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
 }
-.enviarbotao button:hover{
+.enviarbotao button:hover,
+.lanc-user btn-user:hover{
     background-color: hsl(0, 0%, 0%, 0.850);
     cursor: pointer;
 }
